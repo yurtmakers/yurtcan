@@ -60,7 +60,7 @@ La figure suivante illustre un modèle brouillon qui donne en gros une
 ordre d'idée de l'agencement des couronnes et de l'habillage qui
 reflète la description.
 
-[[./model1.png]]
+[[./images/model1.png]]
 
 ** L'habitat, vue de face
 
@@ -73,13 +73,13 @@ aperçoit notamment sur la figure les poutres muraux ainsi que les
 poutrelles permettant de contenir l'habillage. Toutes les poutres et
 poutrelles sont d'une épaisseur de 10 cm2.
 
-[[./face.png]]
+[[./images/face.png]]
 
 ** Une vue de profile
 
 Même modèle illustré avec une vue de côté.
 
-[[./profile.png]]
+[[./images/profile.png]]
 
 ** Une vue de dessus
 
@@ -89,19 +89,19 @@ suffisamment grande pour éclairer l'ensemble de l'habitat. On aperçoit
 au sol, traversent le plancher, le rez-de-chaussée et l'étage pour finir
 par maintenir la couronne et les panneaux du toit.
 
-[[./dessus.png]]
+[[./images/dessus.png]]
 
 ** La couronne
 
 Deux vues par le haut nous montre tout l'étendu de l'habitat. Au sol
 figure quelques fournitures de salon et de salle à manger.
 
-[[./couronne.png]]
+[[./images/couronne.png]]
 
 Sur la deuxième figure nous pouvons apercevoir le cercle de la
 mezzanine.
 
-[[./couronne_approchee.png]]
+[[./images/couronne_approchee.png]]
 
 ** Les bais vitrées
 
@@ -110,13 +110,13 @@ peuvent être remplacés par d'autres types de murs. Des chassies
 disposant de grandes bais vitrés vont être réalisés afin de disposé
 d'un panorama du paysage avoisinant depuis le rez-de-chaussée.
 
-[[./profile_bais_vitree.png]]
+[[./images/profile_bais_vitree.png]]
 
 ** L'intérieur
 
 Cette vue donne une impression sur l'intérieur du rez-de-chaussée.
 
-[[./interieur.png]]
+[[./images/interieur.png]]
 
 ** Le plancher
 
@@ -126,12 +126,12 @@ rejoignent la couronne sur le toit, au milieu, les poutres moyen qui
 maintiennent les murs extérieurs, et au extrémité, les poutrelles
 maintenant l'habillage de la terrasse et du plancher.
 
-[[./plancher.png]]
+[[./images/plancher.png]]
 
 Cette deuxième image cache le plancher afin d'entrevoir une vue
 mariant salon et grande couronne vitrée.
 
-[[./plancher_cache.png]]
+[[./images/plancher_cache.png]]
 
 * Footnotes
 
