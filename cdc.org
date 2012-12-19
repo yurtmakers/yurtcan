@@ -1,0 +1,138 @@
+#+TITLE:     Cahier des charges de la yourte en bois
+#+AUTHOR:    Caner Candan
+#+EMAIL:     caner@candan.fr
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  fr
+#+LATEX_HEADER: \usepackage[french]{babel}
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+LINK_UP:   
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_HOME: 
+#+XSLT:
+
+* Introduction
+
+Une yourte ou iourte [jurt] est l'habitat traditionnel ([[http://fr.wikipedia.org/wiki/Tente][tente]] en peau
+ou en [[http://fr.wikipedia.org/wiki/Feutre_(textile)][feutre]]) des nomades [[http://fr.wikipedia.org/wiki/Mongols][mongols]] et [[http://fr.wikipedia.org/wiki/Peuples_turcs][turcs]] qui vivent en [[http://fr.wikipedia.org/wiki/Asie_centrale][Asie
+centrale]], notamment au [[http://fr.wikipedia.org/wiki/Kirghizstan][Kirghizstan]], au [[http://fr.wikipedia.org/wiki/Kazakhstan][Kazakhstan]] et au
+[[http://fr.wikipedia.org/wiki/Karakalpakistan][Karakalpakistan]]. L'étymologie du mot est d'origine [[http://fr.wikipedia.org/wiki/Turque][turque]] yurt.[fn:1]
+
+* Description
+
+Une yourte d'environ 70 m2 (9,44 m de diamètre) sera construite avec
+une structure et habillage en bois. Elle sera dotée d'un plancher mis
+sur des poutrelles d'une hauteur de 80 cm, de plusieurs poutres pour
+maintenir la couronne d'extérieur et d'intérieur de la yourte. Les
+poutres d'intérieur seront plus longues de manière à maintenir la
+couronne d'intérieur de l'étage ainsi que la couronne du toit. La
+yourte sera dotée de trois couronnes: une grande de la taille de
+l'habitat qui va contenir les murs d'extérieur, une couronne
+d'intérieur, plus petite que la première, pour porter le plancher de
+la mezzanine et une dernière de la même taille que la précédente, pour
+fixer le dôme vitré au toit.  La couronne du toit sera fixée juste au
+dessus de la couronne d'intérieur de l'étage en utilisant les grandes
+poutres d'intérieur. L'habillage de la yourte sera constituée d'un
+ensemble de panneaux avec une ossature en bois. L'ossature permet de
+glisser un isolant. L'habillage, regroupant l'ensemble des murs
+d'extérieur et toit de l'habitat, sera formé de ces panneaux. La
+dimension varie entre les panneaux dédiés aux murs et au toit. Les
+panneaux muraux sont d'une hauteur et d'une largeur de 2,40 m. La
+dimension des panneaux-toit reste à définir. La couronne d'extérieur
+et d'intérieur permettent d'étendre la mezzanine, à l'étage, sur tout
+le tour de la yourte. Au rez-de-chaussée et à l'étage, les poutres
+permettent d'isoler ou non des pièces aisément en y ajoutant des murs
+d'intérieur. Seule, la partie centrale de la yourte, allant du
+rez-de-chaussée à l'étage ne sera pas isolée, profitant ainsi de toute
+la luminosité offerte par le dôme.
+
+* Modélisation
+
+La yourte a été modélisé à l'aide de l'outil de modélisation Google
+SketchUp. Les photographies du modèle sont illustées ci-dessous.
+
+** Structure brouillon et simplifiée
+
+La figure suivante illustre un modèle brouillon qui donne en gros une
+ordre d'idée de l'agencement des couronnes et de l'habillage qui
+reflète la description.
+
+[[./model1.png]]
+
+** L'habitat, vue de face
+
+Cette vue, de face, correspond à la version finale de la yourte. La hauteur du
+rez-de-chaussée ainsi que de l'étage est de taille égale à 2.40 m. Le
+personnage est situé sur le plancher haussé de 80 cm. Le plancher
+allant au delà de la surface au sol est utilisé en tant que terrasse
+avec une largeur de 1 m et un toit extérieur de même largeur. On
+aperçoit notamment sur la figure les poutres muraux ainsi que les
+poutrelles permettant de contenir l'habillage. Toutes les poutres et
+poutrelles sont d'une épaisseur de 10 cm2.
+
+[[./face.png]]
+
+** Une vue de profile
+
+Même modèle illustré avec une vue de côté.
+
+[[./profile.png]]
+
+** Une vue de dessus
+
+Sur cette illustration nous pouvons apercevoir la couronne
+suffisamment grande pour éclairer l'ensemble de l'habitat. On aperçoit
+également des lits situés sur la mezzanine. Les poutres visibles démarrent
+au sol, traversent le plancher, le rez-de-chaussée et l'étage pour finir
+par maintenir la couronne et les panneaux du toit.
+
+[[./dessus.png]]
+
+** La couronne
+
+Deux vues par le haut nous montre tout l'étendu de l'habitat. Au sol
+figure quelques fournitures de salon et de salle à manger.
+
+[[./couronne.png]]
+
+Sur la deuxième figure nous pouvons apercevoir le cercle de la
+mezzanine.
+
+[[./couronne_approchee.png]]
+
+** Les bais vitrées
+
+Les murs de la yourte sont interchangeables, ce qui signifie qu'ils
+peuvent être remplacés par d'autres types de murs. Des chassies
+disposant de grandes bais vitrés vont être réalisés afin de disposé
+d'un panorama du paysage avoisinant depuis le rez-de-chaussée.
+
+[[./profile_bais_vitree.png]]
+
+** L'intérieur
+
+Cette vue donne une impression sur l'intérieur du rez-de-chaussée.
+
+[[./interieur.png]]
+
+** Le plancher
+
+Ces dernières illustrations donnent une idée de la composition du
+plancher. On aperçoit, au centre, les pieds des grandes poutres qui
+rejoignent la couronne sur le toit, au milieu, les poutres moyen qui
+maintiennent les murs extérieurs, et au extrémité, les poutrelles
+maintenant l'habillage de la terrasse et du plancher.
+
+[[./plancher.png]]
+
+Cette deuxième image cache le plancher afin d'entrevoir une vue
+mariant salon et grande couronne vitrée.
+
+[[./plancher_cache.png]]
+
+* Footnotes
+
+[fn:1] [[http://fr.wikipedia.org/wiki/Yourte][Wikipedia]]
