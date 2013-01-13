@@ -1,0 +1,287 @@
+#+TODO: ACTIVITY(a!) TODO(t!) PROGRESS(p!) | DONE(d!) CANCELED(c!)
+#+PROPERTY: Status_ALL U UU NP
+#+PROPERTY: Estimation 1 2 3 4 5 6 7
+#+PROPERTY: Real_ALL 1 2 3 4 5 6 7 8 9 10 11 12 13
+#+PROPERTY: Pomodoro x - '
+#+TAGS: { étude(e) model(m) construction(c) nettoyage(n) achat(a) }
+#+TAGS: achat(a)
+#+COLUMNS: %TODO %Status %PRIORITY %50ITEM %10TAGS %Pomodoro %Estimation %Real %15SCHEDULED %15DEADLINE
+#
+# ' internal interruptions
+# - external interruptions
+# U unplanned
+# - A Pomodoro Consists of 25 minutes Plus a Five-Minute Break (§2.1).
+# - After Every Four Pomodoros Comes a 15-30 Minute Break (§2.1.2).
+# - The Pomodoro Is Indivisible. There are no half or quarter Pomodoros (§2.1).
+# - If a Pomodoro Begins, It Has to Ring:
+#   - If a Pomodoro is interrupted definitively – i.e. the interruption
+#     isn’t handled  (§2.2.2) – it’s considered void, never begun, and
+#     it can’t be recorded with an X (§2.1.1).
+#   - If an activity is completed once a Pomodoro has already begun,
+#     continue reviewing the same activity until the Pomodoro rings (§2.1.3).
+# - Protect the Pomodoro (§2.2.3). Inform effectively, negotiate quickly
+#   to reschedule the interruption, call back the person who interrupted
+#   you as agreed.
+# - If It Lasts More Than 5-7 Pomodoros, Break It Down (§2.3, §3.11,
+#   §4.2). Complex activities should be divided into several activities.
+# - If It Lasts Less Than One Pomodoro, Add It Up (§2.3, §4.2). Simple
+#   tasks can be combined.
+# - Results Are Achieved Pomodoro after Pomodoro (§3.8).
+# - The Next Pomodoro Will Go Better (§3.9).
+
+* DONE Coffrage angle mur					      :model:
+  SCHEDULED: <2013-01-12 sam.>
+  - State "DONE"       from "TODO"       [2013-01-13 dim. 18:22]
+  :PROPERTIES:
+  :Estimation: 2
+  :Pomodoro: xxxx
+  :Real:     4
+  :END:
+* DONE Pentes du toit						      :model:
+  SCHEDULED: <2013-01-12 sam.>
+  - State "DONE"       from "TODO"       [2013-01-13 dim. 18:22]
+  :PROPERTIES:
+  :Estimation: 3
+  :Pomodoro: xxxxxxxxxxxx
+  :Real:     12
+  :END:
+* TODO Coffrage plancher					      :model:
+  SCHEDULED: <2013-01-13 dim.>
+  :PROPERTIES:
+  :Estimation: 3
+  :Pomodoro: xxxx
+  :END:
+
+* TODO Ajout des coffrages au mur/plancher/pente		      :model:
+  SCHEDULED: <2013-01-13 dim.>
+  :PROPERTIES:
+  :Estimation: 2
+  :Pomodoro: x
+  :END:
+* TODO Coffrage pour pente					      :model:
+  SCHEDULED: <2013-01-12 sam.>
+  :PROPERTIES:
+  :Estimation: 2
+  :END:
+* Porte d'entrée
+** ACTIVITY Appeler Ayhan (taille porte)			      :étude:
+   SCHEDULED: <2013-01-12 sam.>
+   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:13]
+   :PROPERTIES:
+   :Estimation: 1
+   :END:
+** ACTIVITY Choix définitif					      :étude:
+   SCHEDULED: <2013-01-12 sam.>
+   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:13]
+   :PROPERTIES:
+   :Estimation: 1
+   :END:
+** ACTIVITY Modélisation					      :model:
+   SCHEDULED: <2013-01-12 sam.>
+   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:13]
+   :PROPERTIES:
+   :Estimation: 3
+   :END:
+* ACTIVITY Assembler mur et pente avec groupe mur et groupe pente     :model:
+  SCHEDULED: <2013-01-12 sam.>
+  - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:13]
+  :PROPERTIES:
+  :Estimation: 1
+  :END:
+* Cablage électrique
+** ACTIVITY Étude						      :étude:
+   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:13]
+   :PROPERTIES:
+   :Estimation: 3
+   :END:
+** ACTIVITY Modèlisation					      :model:
+   SCHEDULED: <2013-01-12 sam.>
+   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:13]
+   :PROPERTIES:
+   :Estimation: 3
+   :END:
+* Mezzanine
+** ACTIVITY Réflexion (appel ayhan)				      :étude:
+   SCHEDULED: <2013-01-12 sam.>
+   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:13]
+   :PROPERTIES:
+   :Estimation: 2
+   :END:
+** ACTIVITY Modélisation					      :model:
+   SCHEDULED: <2013-01-12 sam.>
+   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:13]
+   :PROPERTIES:
+   :Estimation: 3
+   :END:
+* ACTIVITY Appeler une scierie pour devis beaucouzé		:étude:achat:
+  SCHEDULED: <2013-01-12 sam.>
+  - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:14]
+  :PROPERTIES:
+  :Estimation: 3
+  :END:
+* ACTIVITY Prix bois en Alsace					:étude:achat:
+  SCHEDULED: <2013-01-12 sam.>
+  - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:14]
+  :PROPERTIES:
+  :Estimation: 3
+  :END:
+* ACTIVITY Scie sur table tout option				:étude:achat:
+  SCHEDULED: <2013-01-12 sam.>
+  - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:14]
+  :PROPERTIES:
+  :Estimation: 5
+  :END:
+* ACTIVITY Compresseur air					:étude:achat:
+  SCHEDULED: <2013-01-12 sam.>
+  - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:14]
+  :PROPERTIES:
+  :Estimation: 2
+  :END:
+* ACTIVITY Cloueuse pneumatique					:étude:achat:
+  SCHEDULED: <2013-01-12 sam.>
+  - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:14]
+  :PROPERTIES:
+  :Estimation: 3
+  :END:
+* ACTIVITY Raboteuse						:étude:achat:
+  SCHEDULED: <2013-01-12 sam.>
+  - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:14]
+  :PROPERTIES:
+  :Estimation: 1
+  :END:
+* ACTIVITY Gantt						      :étude:
+  SCHEDULED: <2013-01-12 sam.>
+  - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:14]
+  :PROPERTIES:
+  :Estimation: 6
+  :END:
+* Aménager atelier (garage)
+** ACTIVITY Étagères					       :construction:
+   SCHEDULED: <2013-01-12 sam.>
+   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:14]
+   :PROPERTIES:
+   :Estimation: 4
+   :END:
+** ACTIVITY Espace pour OSB3 dans lieu carton			  :nettoyage:
+   SCHEDULED: <2013-01-12 sam.>
+   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:14]
+   :PROPERTIES:
+   :Estimation: 4
+   :END:
+** ACTIVITY Bâche devant porte garage			       :construction:
+   SCHEDULED: <2013-01-12 sam.>
+   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:14]
+   :PROPERTIES:
+   :Estimation: 2
+   :END:
+* Gabarris
+** Pan mur ossature
+*** ACTIVITY Modélisation					      :model:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
+    :PROPERTIES:
+    :Estimation: 4
+    :END:
+*** ACTIVITY Réalisation				       :construction:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
+    :PROPERTIES:
+    :Estimation: 4
+    :END:
+** Pan pente ossature
+*** ACTIVITY Modélisation					      :model:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
+    :PROPERTIES:
+    :Estimation: 5
+    :END:
+*** ACTIVITY Réalisation				       :construction:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
+    :PROPERTIES:
+    :Estimation: 4
+    :END:
+** Pan plancher ossature
+*** ACTIVITY Modélisation					      :model:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
+    :PROPERTIES:
+    :Estimation: 4
+    :END:
+*** ACTIVITY Réalisation				       :construction:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
+    :PROPERTIES:
+    :Estimation: 4
+    :END:
+
+** Coffrage mur x2
+*** ACTIVITY Modélisation					      :model:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
+    :PROPERTIES:
+    :Estimation: 4
+    :END:
+*** ACTIVITY Réalisation				       :construction:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
+    :PROPERTIES:
+    :Estimation: 5
+    :END:
+** Coffrage pente x3
+*** ACTIVITY Modélisation					      :model:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
+    :PROPERTIES:
+    :Estimation: 6
+    :END:
+*** ACTIVITY Réalisation				       :construction:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
+    :PROPERTIES:
+    :Estimation: 7
+    :END:
+** Coffrage plancher x3
+*** ACTIVITY Modélisation					      :model:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
+    :PROPERTIES:
+    :Estimation: 4
+    :END:
+*** ACTIVITY Réalisation				       :construction:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
+    :PROPERTIES:
+    :Estimation: 5
+    :END:
+
+** Courronne
+*** ACTIVITY Modélisation					      :model:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:15]
+    :PROPERTIES:
+    :Estimation: 2
+    :END:
+*** ACTIVITY Réalisation				       :construction:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:15]
+    :PROPERTIES:
+    :Estimation: 3
+    :END:
+* ACTIVITY Ponceuse						:étude:achat:
+  SCHEDULED: <2013-01-12 sam.>
+  - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:15]
+  :PROPERTIES:
+  :Estimation: 3
+  :END:
+* ACTIVITY Chiffrage quantité bois				      :étude:
+  SCHEDULED: <2013-01-12 sam.>
+  - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:15]
+  :PROPERTIES:
+  :Estimation: 6
+  :END:
+
+* ACTIVITY Tenelle					       :construction:
+  SCHEDULED: <2013-01-12 sam.>
+  - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:15]
+
