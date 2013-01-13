@@ -1,11 +1,12 @@
 #+TODO: ACTIVITY(a!) TODO(t!) PROGRESS(p!) | DONE(d!) CANCELED(c!)
 #+PROPERTY: Status_ALL U UU NP
+#+PROPERTY: Owner_ALL c f a g l t
 #+PROPERTY: Estimation 1 2 3 4 5 6 7
 #+PROPERTY: Real_ALL 1 2 3 4 5 6 7 8 9 10 11 12 13
 #+PROPERTY: Pomodoro x - '
-#+TAGS: { étude(e) model(m) construction(c) nettoyage(n) achat(a) }
+#+TAGS: { étude(e) model(m) construction(c) nettoyage(n) }
 #+TAGS: achat(a)
-#+COLUMNS: %TODO %Status %PRIORITY %50ITEM %10TAGS %Pomodoro %Estimation %Real %15SCHEDULED %15DEADLINE
+#+COLUMNS: %TODO %Owner %Status %PRIORITY %50ITEM %10TAGS %Pomodoro %Estimation %Real %15SCHEDULED %15DEADLINE
 #
 # ' internal interruptions
 # - external interruptions
@@ -36,6 +37,7 @@
   :Estimation: 2
   :Pomodoro: xxxx
   :Real:     4
+  :Owner:    f
   :END:
 * DONE Pentes du toit						      :model:
   SCHEDULED: <2013-01-12 sam.>
@@ -44,12 +46,38 @@
   :Estimation: 3
   :Pomodoro: xxxxxxxxxxxx
   :Real:     12
+  :Owner:    c
   :END:
+* Mezzanine 
+** DONE Réflexion (appel ayhan)					      :étude:
+   SCHEDULED: <2013-01-12 sam.>
+   - State "DONE"       from "ACTIVITY"   [2013-01-13 dim. 18:29]
+   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:13]
+   :PROPERTIES:
+   :Estimation: 2
+   :Status:   NP
+   :Owner:    t
+   :END:
+** TODO Solives							      :model:
+   SCHEDULED: <2013-01-12 sam.>
+   - State "TODO"       from "ACTIVITY"   [2013-01-13 dim. 18:29]
+   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:13]
+   :PROPERTIES:
+   :Estimation: 3
+   :Pomodoro: '-xx
+   :Owner:    c
+   :END:
+** TODO Planchers						      :model:
+   SCHEDULED: <2013-01-14 lun.>
+   :PROPERTIES:
+   :Estimation: 3
+   :END:
 * TODO Coffrage plancher					      :model:
   SCHEDULED: <2013-01-13 dim.>
   :PROPERTIES:
   :Estimation: 3
   :Pomodoro: xxxx
+  :Owner:    f
   :END:
 
 * TODO Ajout des coffrages au mur/plancher/pente		      :model:
@@ -57,11 +85,14 @@
   :PROPERTIES:
   :Estimation: 2
   :Pomodoro: x
+  :Owner:    c
   :END:
 * TODO Coffrage pour pente					      :model:
   SCHEDULED: <2013-01-12 sam.>
   :PROPERTIES:
   :Estimation: 2
+  :Pomodoro: 
+  :Owner:    f
   :END:
 * Porte d'entrée
 ** ACTIVITY Appeler Ayhan (taille porte)			      :étude:
@@ -95,19 +126,6 @@
    :Estimation: 3
    :END:
 ** ACTIVITY Modèlisation					      :model:
-   SCHEDULED: <2013-01-12 sam.>
-   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:13]
-   :PROPERTIES:
-   :Estimation: 3
-   :END:
-* Mezzanine
-** ACTIVITY Réflexion (appel ayhan)				      :étude:
-   SCHEDULED: <2013-01-12 sam.>
-   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:13]
-   :PROPERTIES:
-   :Estimation: 2
-   :END:
-** ACTIVITY Modélisation					      :model:
    SCHEDULED: <2013-01-12 sam.>
    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:13]
    :PROPERTIES:
@@ -174,7 +192,7 @@
    :PROPERTIES:
    :Estimation: 2
    :END:
-* Gabarris
+* Gabarris  
 ** Pan mur ossature
 *** ACTIVITY Modélisation					      :model:
     SCHEDULED: <2013-01-12 sam.>
