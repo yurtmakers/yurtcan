@@ -69,11 +69,13 @@
    :Owner:    c
    :Real:     5
    :END:
-** TODO Planchers						      :model:
+** DONE Planchers						      :model:
    SCHEDULED: <2013-01-14 lun.>
+   - State "DONE"       from "TODO"       [2013-01-14 lun. 18:57]
    :PROPERTIES:
    :Estimation: 3
-   :Pomodoro: -x
+   :Pomodoro: -xxx
+   :Real:     3
    :END:
 * DONE Coffrage plancher					      :model:
   SCHEDULED: <2013-01-13 dim.>
