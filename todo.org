@@ -73,6 +73,7 @@
    SCHEDULED: <2013-01-14 lun.>
    :PROPERTIES:
    :Estimation: 3
+   :Pomodoro: -x
    :END:
 * DONE Coffrage plancher					      :model:
   SCHEDULED: <2013-01-13 dim.>
