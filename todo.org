@@ -58,36 +58,40 @@
    :Status:   NP
    :Owner:    t
    :END:
-** TODO Solives							      :model:
+** DONE Solives							      :model:
    SCHEDULED: <2013-01-12 sam.>
+   - State "DONE"       from "TODO"       [2013-01-14 lun. 01:51]
    - State "TODO"       from "ACTIVITY"   [2013-01-13 dim. 18:29]
    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:13]
    :PROPERTIES:
    :Estimation: 3
-   :Pomodoro: '-xx
+   :Pomodoro: '-xxxxx
    :Owner:    c
+   :Real:     5
    :END:
 ** TODO Planchers						      :model:
    SCHEDULED: <2013-01-14 lun.>
    :PROPERTIES:
    :Estimation: 3
    :END:
-* TODO Coffrage plancher					      :model:
+* DONE Coffrage plancher					      :model:
   SCHEDULED: <2013-01-13 dim.>
+  - State "DONE"       from "TODO"       [2013-01-14 lun. 01:22]
   :PROPERTIES:
   :Estimation: 3
-  :Pomodoro: xxxx
+  :Pomodoro: xxxxx
   :Owner:    f
+  :Real:     5
   :END:
 
 * TODO Ajout des coffrages au mur/plancher/pente		      :model:
   SCHEDULED: <2013-01-13 dim.>
   :PROPERTIES:
   :Estimation: 2
-  :Pomodoro: x
-  :Owner:    c
+  :Pomodoro: xx
+  :Owner:    f
   :END:
-* TODO Coffrage pour pente					      :model:
+* TODO Coffrage pente						      :model:
   SCHEDULED: <2013-01-12 sam.>
   :PROPERTIES:
   :Estimation: 2
