@@ -76,6 +76,7 @@
    :Estimation: 3
    :Pomodoro: -xxx
    :Real:     3
+   :Owner:    c
    :END:
 * DONE Coffrage plancher					      :model:
   SCHEDULED: <2013-01-13 dim.>
@@ -91,14 +92,14 @@
   SCHEDULED: <2013-01-13 dim.>
   :PROPERTIES:
   :Estimation: 2
-  :Pomodoro: xx
+  :Pomodoro: xx'''x
   :Owner:    f
   :END:
 * TODO Coffrage pente						      :model:
   SCHEDULED: <2013-01-12 sam.>
   :PROPERTIES:
   :Estimation: 2
-  :Pomodoro: 
+  :Pomodoro: xx----x
   :Owner:    f
   :END:
 * Porte d'entrée
