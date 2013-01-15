@@ -29,6 +29,7 @@
 #   tasks can be combined.
 # - Results Are Achieved Pomodoro after Pomodoro (§3.8).
 # - The Next Pomodoro Will Go Better (§3.9).
+# - Racc tab : ctrl+c ctrl+x ctrl+c
 
 * DONE Coffrage angle mur					      :model:
   SCHEDULED: <2013-01-12 sam.>
