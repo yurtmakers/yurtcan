@@ -29,7 +29,9 @@
 #   tasks can be combined.
 # - Results Are Achieved Pomodoro after Pomodoro (§3.8).
 # - The Next Pomodoro Will Go Better (§3.9).
-# - Racc tab : ctrl+c ctrl+x ctrl+c
+#
+# Emacs shortcuts:
+# - Table view: ctrl+c ctrl+x ctrl+c
 
 * DONE Coffrage angle mur					      :model:
   SCHEDULED: <2013-01-12 sam.>
@@ -89,20 +91,140 @@
   :Real:     5
   :END:
 
-* TODO Ajout des coffrages au mur/plancher/pente		      :model:
+* DONE Ajout des coffrages au mur/plancher			      :model:
   SCHEDULED: <2013-01-13 dim.>
+  - State "DONE"       from "TODO"       [2013-01-15 mar. 20:04]
   :PROPERTIES:
   :Estimation: 2
   :Pomodoro: xx'''x
-  :Owner:    f
+  :Owner:    t
+  :Real:     3
   :END:
 * TODO Coffrage pente						      :model:
   SCHEDULED: <2013-01-12 sam.>
   :PROPERTIES:
-  :Estimation: 2
+  :Estimation: 2 6
   :Pomodoro: xx----x
   :Owner:    f
   :END:
+* TODO Ajout des coffrages pour pentes
+  SCHEDULED: <2013-01-15 mar.>
+  :PROPERTIES:
+  :Estimation: 1
+  :Owner:    f
+  :END:
+* TODO Terrasse
+  SCHEDULED: <2013-01-15 mar.>
+  :PROPERTIES:
+  :Owner:    c
+  :Estimation: 4
+  :END:
+* TODO Terrasse d'entrée
+  SCHEDULED: <2013-01-15 mar.>
+  :PROPERTIES:
+  :Estimation: 3
+  :Owner:    c
+  :END:
+* Gabarris  
+** Pan mur ossature
+*** TODO Modélisation						      :model:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "TODO"       from "ACTIVITY"   [2013-01-15 mar. 20:25]
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
+    :PROPERTIES:
+    :Estimation: 4
+    :Owner:    f
+    :END:
+*** ACTIVITY Réalisation				       :construction:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
+    :PROPERTIES:
+    :Estimation: 4
+    :END:
+** Pan pente ossature
+*** TODO Modélisation						      :model:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "TODO"       from "ACTIVITY"   [2013-01-15 mar. 20:26]
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
+    :PROPERTIES:
+    :Estimation: 5
+    :Owner:    c
+    :END:
+*** ACTIVITY Réalisation				       :construction:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
+    :PROPERTIES:
+    :Estimation: 4
+    :END:
+** Pan plancher ossature
+*** TODO Modélisation						      :model:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "TODO"       from "ACTIVITY"   [2013-01-15 mar. 20:25]
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
+    :PROPERTIES:
+    :Estimation: 4
+    :Owner:    f
+    :END:
+*** ACTIVITY Réalisation				       :construction:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
+    :PROPERTIES:
+    :Estimation: 4
+    :END:
+
+** Coffrage mur x2
+*** ACTIVITY Modélisation					      :model:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
+    :PROPERTIES:
+    :Estimation: 4
+    :END:
+*** ACTIVITY Réalisation				       :construction:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
+    :PROPERTIES:
+    :Estimation: 5
+    :END:
+** Coffrage pente x3
+*** ACTIVITY Modélisation					      :model:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
+    :PROPERTIES:
+    :Estimation: 6
+    :END:
+*** ACTIVITY Réalisation				       :construction:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
+    :PROPERTIES:
+    :Estimation: 7
+    :END:
+** Coffrage plancher x3
+*** ACTIVITY Modélisation					      :model:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
+    :PROPERTIES:
+    :Estimation: 4
+    :END:
+*** ACTIVITY Réalisation				       :construction:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
+    :PROPERTIES:
+    :Estimation: 5
+    :END:
+
+** Courronne
+*** ACTIVITY Modélisation					      :model:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:15]
+    :PROPERTIES:
+    :Estimation: 2
+    :END:
+*** ACTIVITY Réalisation				       :construction:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:15]
+    :PROPERTIES:
+    :Estimation: 3
+    :END:
 * Porte d'entrée
 ** ACTIVITY Appeler Ayhan (taille porte)			      :étude:
    SCHEDULED: <2013-01-12 sam.>
@@ -201,100 +323,6 @@
    :PROPERTIES:
    :Estimation: 2
    :END:
-* Gabarris  
-** Pan mur ossature
-*** ACTIVITY Modélisation					      :model:
-    SCHEDULED: <2013-01-12 sam.>
-    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
-    :PROPERTIES:
-    :Estimation: 4
-    :END:
-*** ACTIVITY Réalisation				       :construction:
-    SCHEDULED: <2013-01-12 sam.>
-    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
-    :PROPERTIES:
-    :Estimation: 4
-    :END:
-** Pan pente ossature
-*** ACTIVITY Modélisation					      :model:
-    SCHEDULED: <2013-01-12 sam.>
-    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
-    :PROPERTIES:
-    :Estimation: 5
-    :END:
-*** ACTIVITY Réalisation				       :construction:
-    SCHEDULED: <2013-01-12 sam.>
-    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
-    :PROPERTIES:
-    :Estimation: 4
-    :END:
-** Pan plancher ossature
-*** ACTIVITY Modélisation					      :model:
-    SCHEDULED: <2013-01-12 sam.>
-    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
-    :PROPERTIES:
-    :Estimation: 4
-    :END:
-*** ACTIVITY Réalisation				       :construction:
-    SCHEDULED: <2013-01-12 sam.>
-    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
-    :PROPERTIES:
-    :Estimation: 4
-    :END:
-
-** Coffrage mur x2
-*** ACTIVITY Modélisation					      :model:
-    SCHEDULED: <2013-01-12 sam.>
-    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
-    :PROPERTIES:
-    :Estimation: 4
-    :END:
-*** ACTIVITY Réalisation				       :construction:
-    SCHEDULED: <2013-01-12 sam.>
-    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
-    :PROPERTIES:
-    :Estimation: 5
-    :END:
-** Coffrage pente x3
-*** ACTIVITY Modélisation					      :model:
-    SCHEDULED: <2013-01-12 sam.>
-    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
-    :PROPERTIES:
-    :Estimation: 6
-    :END:
-*** ACTIVITY Réalisation				       :construction:
-    SCHEDULED: <2013-01-12 sam.>
-    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
-    :PROPERTIES:
-    :Estimation: 7
-    :END:
-** Coffrage plancher x3
-*** ACTIVITY Modélisation					      :model:
-    SCHEDULED: <2013-01-12 sam.>
-    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:18]
-    :PROPERTIES:
-    :Estimation: 4
-    :END:
-*** ACTIVITY Réalisation				       :construction:
-    SCHEDULED: <2013-01-12 sam.>
-    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
-    :PROPERTIES:
-    :Estimation: 5
-    :END:
-
-** Courronne
-*** ACTIVITY Modélisation					      :model:
-    SCHEDULED: <2013-01-12 sam.>
-    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:15]
-    :PROPERTIES:
-    :Estimation: 2
-    :END:
-*** ACTIVITY Réalisation				       :construction:
-    SCHEDULED: <2013-01-12 sam.>
-    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:15]
-    :PROPERTIES:
-    :Estimation: 3
-    :END:
 * ACTIVITY Ponceuse						:étude:achat:
   SCHEDULED: <2013-01-12 sam.>
   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:15]
