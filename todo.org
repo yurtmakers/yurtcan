@@ -118,6 +118,7 @@
   :PROPERTIES:
   :Owner:    c
   :Estimation: 4
+  :Pomodoro: -x''x
   :END:
 * TODO Terrasse d'entrée
   SCHEDULED: <2013-01-15 mar.>
@@ -125,7 +126,12 @@
   :Estimation: 3
   :Owner:    c
   :END:
-* Gabarris  
+* TODO Sas d'entrée de 1m10
+  SCHEDULED: <2013-01-16 mer.>
+  :PROPERTIES:
+  :Estimation: 4
+  :END:
+* Gabarris
 ** Pan mur ossature
 *** TODO Modélisation						      :model:
     SCHEDULED: <2013-01-12 sam.>
@@ -225,6 +231,23 @@
     :PROPERTIES:
     :Estimation: 3
     :END:
+* ACTIVITY Régler pont thermique entre mur et plancher (abaisser la traverse basse de l'ossature de 9mm et couper l'osb du plancher en conséquence)
+  SCHEDULED: <2013-01-15 mar.>
+  - State "ACTIVITY"   from "TODO"       [2013-01-15 mar. 22:41]
+  :PROPERTIES:
+  :Estimation: 1
+  :Owner:    c
+  :END:
+* ACTIVITY Régler pont thermique entre mur en décalant jointure osb dans les montants
+  SCHEDULED: <2013-01-15 mar.>
+  :PROPERTIES:
+  :Owner:    f
+  :Estimation: 1
+  :END:
+* ACTIVITY Contacter christophe copain kevin spécialiste maison écolo pour info thermique
+  - State "ACTIVITY"   from "TODO"       [2013-01-15 mar. 21:39]
+Numéro: 06 23 63 81 04
+entre 19h et 20h
 * Porte d'entrée
 ** ACTIVITY Appeler Ayhan (taille porte)			      :étude:
    SCHEDULED: <2013-01-12 sam.>
