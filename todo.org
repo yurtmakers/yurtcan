@@ -118,13 +118,18 @@
   :PROPERTIES:
   :Owner:    c
   :Estimation: 4
-  :Pomodoro: -x
+  :Pomodoro: -x''x
   :END:
 * TODO Terrasse d'entrée
   SCHEDULED: <2013-01-15 mar.>
   :PROPERTIES:
   :Estimation: 3
   :Owner:    c
+  :END:
+* TODO Sas d'entrée de 1m10
+  SCHEDULED: <2013-01-16 mer.>
+  :PROPERTIES:
+  :Estimation: 4
   :END:
 * Gabarris
 ** Pan mur ossature
@@ -239,8 +244,10 @@
   :Owner:    f
   :Estimation: 1
   :END:
-* ACTIVITY Contacter copain kevin spécialiste maison écolo pour info thermique
+* ACTIVITY Contacter christophe copain kevin spécialiste maison écolo pour info thermique
   - State "ACTIVITY"   from "TODO"       [2013-01-15 mar. 21:39]
+Numéro: 06 23 63 81 04
+entre 19h et 20h
 * Porte d'entrée
 ** ACTIVITY Appeler Ayhan (taille porte)			      :étude:
    SCHEDULED: <2013-01-12 sam.>
