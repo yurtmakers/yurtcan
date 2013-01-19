@@ -119,17 +119,18 @@
   :PROPERTIES:
   :Estimation: 4
   :END:
-* TODO Coffrage pente						      :model:
+* DONE Coffrage pente						      :model:
   SCHEDULED: <2013-01-12 sam.>
   :PROPERTIES:
   :Estimation: 2 6
-  :Pomodoro: xx----xx
+  :Pomodoro: xx----xxxx
   :Owner:    f
   :END:
-* TODO Ajout des coffrages pour pentes
+* DONE Ajout des coffrages pour pentes
   SCHEDULED: <2013-01-15 mar.>
   :PROPERTIES:
   :Estimation: 1
+  :Pomodoro: x
   :Owner:    f
   :END:
 * Gabarris
