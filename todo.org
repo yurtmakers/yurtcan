@@ -107,12 +107,14 @@
   :Owner:    c
   :Estimation: 4
   :Pomodoro: -x''xx
+  :Real:     3
   :END:
 * TODO Terrasse d'entrée
   SCHEDULED: <2013-01-15 mar.>
   :PROPERTIES:
   :Estimation: 3
   :Owner:    c
+  :Pomodoro: 'xx
   :END:
 * TODO Sas d'entrée de 1m10
   SCHEDULED: <2013-01-16 mer.>
