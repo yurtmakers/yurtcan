@@ -109,6 +109,13 @@
   :Pomodoro: -x''xx
   :Real:     3
   :END:
+* DONE Coffrage pente						      :model:
+  SCHEDULED: <2013-01-12 sam.>
+  :PROPERTIES:
+  :Estimation: 2 6
+  :Pomodoro: xx----xxxx
+  :Owner:    f
+  :END:
 * TODO Terrasse d'entrée
   SCHEDULED: <2013-01-15 mar.>
   :PROPERTIES:
@@ -120,13 +127,6 @@
   SCHEDULED: <2013-01-16 mer.>
   :PROPERTIES:
   :Estimation: 4
-  :END:
-* DONE Coffrage pente						      :model:
-  SCHEDULED: <2013-01-12 sam.>
-  :PROPERTIES:
-  :Estimation: 2 6
-  :Pomodoro: xx----xxxx
-  :Owner:    f
   :END:
 * DONE Ajout des coffrages pour pentes
   SCHEDULED: <2013-01-15 mar.>
