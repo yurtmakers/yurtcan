@@ -51,7 +51,7 @@
   :Real:     12
   :Owner:    c
   :END:
-* Mezzanine
+* Mezzanine 
 ** DONE Réflexion (appel ayhan)					      :étude:
    SCHEDULED: <2013-01-12 sam.>
    - State "DONE"       from "ACTIVITY"   [2013-01-13 dim. 18:29]
@@ -116,17 +116,14 @@
   :Pomodoro: xx----xxxx
   :Owner:    f
   :END:
-* TODO Terrasse d'entrée
+* DONE Terrasse d'entrée
   SCHEDULED: <2013-01-15 mar.>
+  - State "DONE"       from "TODO"       [2013-01-20 dim. 22:44]
   :PROPERTIES:
   :Estimation: 3
   :Owner:    c
-  :Pomodoro: 'xx
-  :END:
-* TODO Sas d'entrée de 1m10
-  SCHEDULED: <2013-01-16 mer.>
-  :PROPERTIES:
-  :Estimation: 4
+  :Pomodoro: 'xxx'x
+  :Real:     4
   :END:
 * DONE Ajout des coffrages pour pentes
   SCHEDULED: <2013-01-15 mar.>
@@ -135,7 +132,31 @@
   :Pomodoro: x
   :Owner:    f
   :END:
-* Gabarris
+* DONE Chiffrage quantité bois					      :étude:
+  SCHEDULED: <2013-01-12 sam.>
+  - State "DONE"       from "TODO"       [2013-01-21 lun. 06:34]
+  - State "TODO"       from "ACTIVITY"   [2013-01-20 dim. 22:51]
+  - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:15]
+  :PROPERTIES:
+  :Estimation: 6
+  :Owner:    t
+  :Pomodoro: -xx----xxxx
+  :Real:     6
+  :END:
+* DONE Contacter une scierie pour devis beaucouzé		:étude:achat:
+  SCHEDULED: <2013-01-12 sam.>
+  - State "DONE"       from "ACTIVITY"   [2013-01-21 lun. 06:35]
+  - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:14]
+  :PROPERTIES:
+  :Estimation: 3
+  :Status:   NP
+  :END:
+* TODO Sas d'entrée de 1m10
+  SCHEDULED: <2013-01-16 mer.>
+  :PROPERTIES:
+  :Estimation: 4
+  :END:
+* Gabarris  
 ** Pan mur ossature
 *** TODO Modélisation						      :model:
     SCHEDULED: <2013-01-12 sam.>
@@ -152,6 +173,12 @@
     :Estimation: 4
     :END:
 ** Pan pente ossature
+*** ACTIVITY Réalisation				       :construction:
+    SCHEDULED: <2013-01-12 sam.>
+    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
+    :PROPERTIES:
+    :Estimation: 4
+    :END:
 *** TODO Modélisation						      :model:
     SCHEDULED: <2013-01-12 sam.>
     - State "TODO"       from "ACTIVITY"   [2013-01-15 mar. 20:26]
@@ -159,12 +186,6 @@
     :PROPERTIES:
     :Estimation: 5
     :Owner:    c
-    :END:
-*** ACTIVITY Réalisation				       :construction:
-    SCHEDULED: <2013-01-12 sam.>
-    - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:17]
-    :PROPERTIES:
-    :Estimation: 4
     :END:
 ** Pan plancher ossature
 *** TODO Modélisation						      :model:
@@ -289,12 +310,6 @@ entre 19h et 20h
    :PROPERTIES:
    :Estimation: 3
    :END:
-* ACTIVITY Appeler une scierie pour devis beaucouzé		:étude:achat:
-  SCHEDULED: <2013-01-12 sam.>
-  - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:14]
-  :PROPERTIES:
-  :Estimation: 3
-  :END:
 * ACTIVITY Prix bois en Alsace					:étude:achat:
   SCHEDULED: <2013-01-12 sam.>
   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:14]
@@ -355,12 +370,6 @@ entre 19h et 20h
   - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:15]
   :PROPERTIES:
   :Estimation: 3
-  :END:
-* ACTIVITY Chiffrage quantité bois				      :étude:
-  SCHEDULED: <2013-01-12 sam.>
-  - State "ACTIVITY"   from "TODO"       [2013-01-13 dim. 18:15]
-  :PROPERTIES:
-  :Estimation: 6
   :END:
 
 * ACTIVITY Tenelle					       :construction:
