@@ -24,7 +24,7 @@ La yourte se décompose en 5 parties, x24 pour chaque partie sauf pour le bloc c
 
 ## Illustrations
 
-Des captures d'écran des plans de la yourte sont disponible. Deux versions se distingue, celle que nous réaliserons et celle que nous avions concéptualisé en début d'année.
+Des captures d'écran des plans de la yourte sont disponible. Deux versions se distinguent, celles que nous réaliserons et celles que nous avions concéptualisé en début d'année.
 
 ## Outils
 
