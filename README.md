@@ -1,6 +1,6 @@
 # Yurt'makers
 
-L'objet de ce projet est de concevoir des yourtes [1] « dures » démontables.
+L'objet de ce projet est de concevoir des yourtes [1] « dures » démontables. Les plans sont réalisés sur le principe du « KISS » [2].
 
 ## Un peu d'histoire
 
@@ -35,3 +35,4 @@ Le site github, généralement utiliser pour héberger des codes logiciels, nous
 ## Références
 
 * [1] https://fr.wikipedia.org/wiki/Yourte
+* [2] http://fr.wikipedia.org/wiki/Principe_KISS
