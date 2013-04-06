@@ -477,3 +477,13 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+.yurt {
+    text-align: center;
+    margin: 10px;
+}
+
+.yurt img {
+    width: 100px;
+    height: 60px;
+}
