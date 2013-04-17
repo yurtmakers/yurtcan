@@ -28,7 +28,7 @@ Des captures d'écran des plans de la yourte sont disponible. Deux versions se d
 
 ## Outils
 
-Les plans sont accessible par le logiciel Sketchup depuis ce lien https://github.com/yurtmakers/yurtcan, il faudra télécharger le fichier « https://github.com/yurtmakers/yurtcan/blob/master/yourteI.skp » (clic-droit puis enregistrer-sous).
+Les plans sont accessible par le logiciel Sketchup depuis ce lien https://github.com/yurtmakers/yurtcan, il faudra télécharger le fichier « https://github.com/yurtmakers/yurtcan/raw/master/yourteI.skp » (clic-droit puis enregistrer-sous).
 C'est le fichier sur lequel nous travaillons et nous la mettons à jour régulièrement.
 Le site github, généralement utiliser pour héberger des codes logiciels, nous sert comme plate-forme de partage de nos plans et réflexions autour du projet.
 
